@@ -18,14 +18,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{asset('storage/css/custom.css')}}">
+    <link rel="stylesheet" href="{{Vite::asset('resources/css/custom.css')}}">
   </head>
 
   <body>
     <nav class="navbar navbar-expand-lg bg-primary pt-3">
       <div class="container-fluid ms-3">
         <a class="navbar-brand" href="{{route("home")}}">
-          <img src="{{asset('storage/images/Logo.svg')}}">
+          <img src="{{ Vite::asset('resources/images/Logo.svg')}}">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
           <span class="navbar-toggler-icon"></span>
