@@ -25,7 +25,7 @@
     <nav class="navbar navbar-expand-lg bg-primary pt-3">
       <div class="container-fluid ms-3">
         <a class="navbar-brand" href="{{route("home")}}">
-          <img src="{{ Vite::asset('resources/images/Logo.svg')}}">
+          <img src="{{Vite::asset('resources/images/Logo.svg')}}">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
           <span class="navbar-toggler-icon"></span>
