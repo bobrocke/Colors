@@ -4,6 +4,11 @@
     "src": "resources/css/app.css",
     "isEntry": true
   },
+  "resources/css/custom.css": {
+    "file": "assets/custom-Ci2JRojM.css",
+    "src": "resources/css/custom.css",
+    "isEntry": true
+  },
   "resources/images/Logo.svg": {
     "file": "assets/Logo-Cyi-6OZh.svg",
     "src": "resources/images/Logo.svg"
