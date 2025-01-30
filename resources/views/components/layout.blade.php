@@ -19,6 +19,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="{{Vite::asset('resources/css/custom.css')}}">
+
+    @vite("resources/js/app.js", "resources/js/app.js", "resources/css/custom.css",)
   </head>
 
   <body>
