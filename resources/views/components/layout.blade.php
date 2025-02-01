@@ -20,7 +20,7 @@
 
     <link rel="stylesheet" href="{{Vite::asset('resources/css/custom.css')}}">
 
-    @vite("resources/js/app.js", "resources/css/custom.css",)
+    @vite("resources/js/app.js", "resources/css/custom.css")
   </head>
 
   <body>
