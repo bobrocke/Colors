@@ -10,8 +10,4 @@ Route::get("/", function () {
 Route::view("/home", "home")->name("home");
 Route::view("/about", "about")->name("about");
 
-Route::get("/ranges", function () {
-  return view("ranges");
-})->name("ranges");
-
-Route::resource("colors", ColorController::class);
+Route::get("/colors", [ColorController::class, "index"])->name("colors");

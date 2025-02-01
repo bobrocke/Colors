@@ -9,7 +9,7 @@
     <div class="row mt-4">
       <div class="col">
         <span>Reference Color</span>
-        <div class="w-75 h-75 mt-2" style="background-color: <%= @the_color_as_hex %>"></div>
+        <div class="w-75 h-75 mt-2" style="background-color: {{$color_hex}}"></div>
       </div>
       <div class="col">
         <form method="POST" action="/set_color_hex">
@@ -45,7 +45,7 @@
 
       <div class="col">
         <form method="POST" action="/set_color_hsl">
-          <label class="form-label">Color HSL</label>
+          <label class="form-label">Color HSB</label>
           <div class="row">
             <div class="col">
               <input type="text" name="the_color_h" class="form-control" value="H">
@@ -54,7 +54,7 @@
               <input type="text" name="the_color_s" class="form-control" value="S">
             </div>
             <div class="col">
-              <input type="text" name="the_color_l" class="form-control" value="L">
+              <input type="text" name="the_color_l" class="form-control" value="B">
             </div>
           </div>
           <input type="submit" value="Enter" class="btn btn-primary mt-3">

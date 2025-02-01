@@ -39,7 +39,7 @@
               <div class=" nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dropdown</a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="{{route("ranges")}}">Color Range</a>
+                <a class="dropdown-item" href="{{route("colors")}}">Color Range</a>
                 <a class="dropdown-item" href="{{route("about")}}">About</a>
                 <hr class="dropdown-divider">
                 <a class="dropdown-item" href="{{route("home")}}">Home</a>
