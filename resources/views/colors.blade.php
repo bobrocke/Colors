@@ -1,4 +1,6 @@
-<x-layout>
+ <!-- BEGIN resources/views/colors.blade.php  -->
+
+ <x-layout>
   <x-slot:title>
     Color Range
   </x-slot>
@@ -61,5 +63,37 @@
         </form>
       </div>
     </div>
+
+  <div class="row mt-4">
+    @for ($i = 0; $i < 10; $i++)
+      <div class="row" >
+        <div class="col">
+          <div class="w-75 h-75" style="background-color: {{ $hex_range[$i] }}"></div>
+        </div>
+        <div class="col">
+          <div> {{ $hex_range[$i] }} </div>
+        </div>
+        <div class="col">
+          <p class="align-middle">
+            @for ($j = 0; $j < 3; $j++)
+            {{ $rgb_range[$i][$j] }}
+              @if ($j <2)
+                ,
+              @endif
+            @endfor
+          </p>
+        </div>
+        <div class="col">
+          <p class="align-middle">
+            @for ($j = 0; $j < 3; $j++)
+              {{ $hsl_range[$i][$j] }}
+              @if ($j <2)
+                ,
+              @endif
+            @endfor
+          </p>
+        </div>
+      </div>
+    @endfor
   </div>
 </x-layout>
