@@ -52,7 +52,7 @@ class ColorController extends Controller
       "color_hex" => $color_hex,
       "hex_range" => $hex_range,
       "rgb_range" => $rgb_range,
-      "hsl_range" => $hsl_range,
+      "hsl_range" => $hsl_range
     ]);
   }
 
