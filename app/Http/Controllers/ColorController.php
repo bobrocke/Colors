@@ -52,7 +52,7 @@ class ColorController extends Controller
       "color_hex" => $color_hex,
       "hex_range" => $hex_range,
       "rgb_range" => $rgb_range,
-      "hsl_range" => $hsl_range
+      "hsl_range" => $hsl_range,
     ]);
   }
 
@@ -197,8 +197,3 @@ class ColorController extends Controller
     return $HSL;
   }
 }
-
-// Convert target color to HSB
-// Start with HS0 and step to HS.1 through HS1
-// Convert HS0 through HS1 into RGB and HEX
-// Create an array with  columns (HEX, RGB, HSB) with rows for 0 - 100 brightness in 10 steps
