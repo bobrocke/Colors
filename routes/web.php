@@ -10,4 +10,5 @@ Route::get("/", function () {
 Route::view("/home", "home")->name("home");
 Route::view("/about", "about")->name("about");
 
-Route::get("/colors", [ColorController::class, "index"])->name("colors");
+Route::get("/colors", [ColorController::class, "show"])->name("colors");
+Route::post("/colors", [ColorController::class, "set"]);
