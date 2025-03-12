@@ -1,3 +1,5 @@
+<!-- BEGIN resources/views/components/layout.blade.php  -->
+
 <!DOCTYPE html>
 <html>
   <head>

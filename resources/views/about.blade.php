@@ -1,3 +1,5 @@
+<!-- BEGIN resources/views/about.blade.php  -->
+
 <x-layout>
   <x-slot:title>
     About

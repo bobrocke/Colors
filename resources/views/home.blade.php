@@ -1,3 +1,5 @@
+<!-- BEGIN resources/views/home.blade.php  -->
+
 <x-layout>
   <x-slot:title>
     Home
